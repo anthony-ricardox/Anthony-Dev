@@ -1,62 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthony.Dev - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/tablet.css" media="(min-width: 768px) and (max-width: 1024px)">
-
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony.Dev - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="estilo/style.css">
+  <link rel="stylesheet" href="estilo/tablet.css" media="(min-width: 768px) and (max-width: 1024px)">
 </head>
+
 <body>
-    <header> 
-        <h1>Anthony.Dev</h1>   
-        
-        <div>  
-            <i id="menuburg" class="fa-solid fa-bars" onclick="hamburgue()"> </i>
-        </div>
-    </header>
-     
-    <menu id="nav" >  
-        <div class="items">
-             <a href="">Home</a>
-        </div>
-        <div class="items">
-             <a href="">Sobre</a>   
+ 
 
-        </div>
-        <div class="items">
-             <a href="">Projetos</a>
-        </div>
-        <div class="items">
-             <a href="">Contato</a> 
+  <header>
+    <h1>Anthony.Dev</h1>
+    <div>
+      <i id="menuburg" class="fa-solid fa-bars" onclick="hamburgue()"></i>
+    </div>
+  </header>
 
-        </div>
-        </menu>
-    <main>  
+  <menu id="nav">
+    <div class="items"><a href="#">Home</a></div>
+    <div class="items"><a href="#sobre">Sobre</a></div>
+    <div class="items"><a href="#">Projetos</a></div>
+    <div class="items"><a href="#">Skills</a></div>
+    <div class="items"><a href="#">Contato</a></div>
+  </menu>
+   
 
 
-    </main>
-
-    <footer>    
-
-    </footer>
-
-    <script>    
-        function hamburgue(){   
-            if (nav.style.display == 'block'){
-                 nav.style.display = 'none'
-            } else{   
-                nav.style.display = 'block'
-            }
-               
-           
-        }
-
-    </script>
+   <script src="script.js"></script>
 
 </body>
 </html>
